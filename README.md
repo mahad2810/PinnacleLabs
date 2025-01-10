@@ -82,27 +82,55 @@ print("Sentiment:", result)
 
     accuracy                           0.80       400
    macro avg       0.80      0.80      0.80       400
-weighted avg       0.80      0.80      0.80       400
-  ```
 
----
 
 ## **How to Run**
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Open Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-4. Navigate to `sentiment.ipynb` and run the notebook cells sequentially.
+
+Follow these steps to set up and execute the project on your local machine:
+
+### **1. Clone the Repository**
+Clone the repository to your local machine using the following command:
+```bash
+git clone <repository-url>
+```
+Replace `<repository-url>` with the actual URL of your repository.
+
+### **2. Install Dependencies**
+Navigate to the cloned repository directory:
+```bash
+cd <repository-folder-name>
+```
+Install the required dependencies using `pip`:
+```bash
+pip install -r requirements.txt
+```
+
+### **3. Launch Jupyter Notebook**
+Start Jupyter Notebook from your terminal or command prompt:
+```bash
+jupyter notebook
+```
+This will open the Jupyter Notebook interface in your default web browser.
+
+### **4. Open the Sentiment Analysis Notebook**
+In the Jupyter Notebook interface:
+- Navigate to the folder containing the cloned repository.
+- Open the file `sentiment.ipynb`.
+
+### **5. Execute the Notebook**
+Run the cells in the notebook sequentially by selecting each cell and clicking on the **Run** button (or pressing `Shift + Enter`).
+
+### **6. Test the Sentiment Analyzer**
+Once the notebook is executed, you can input your own text for sentiment analysis:
+- Modify the variable `new_text` with your custom sentence:
+  ```python
+  new_text = "Your custom text here."
+  ```
+- Run the corresponding cell to view the sentiment prediction.
 
 ---
+
+This detailed guide ensures that even users with minimal technical expertise can successfully run the project.
 
 ## **Conclusion**
 This project showcases a structured approach to text-based sentiment analysis, blending traditional machine learning with modern transformer-based models. The techniques and tools used provide a foundation for real-world applications in business analytics, customer feedback assessment, and decision-making.
