@@ -130,7 +130,7 @@ Once the notebook is executed, you can input your own text for sentiment analysi
 
 ---
 
-This detailed guide ensures that even users with minimal technical expertise can successfully run the project.
+
 
 ## **Conclusion**
 This project showcases a structured approach to text-based sentiment analysis, blending traditional machine learning with modern transformer-based models. The techniques and tools used provide a foundation for real-world applications in business analytics, customer feedback assessment, and decision-making.
